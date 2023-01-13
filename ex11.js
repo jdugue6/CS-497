@@ -5,7 +5,8 @@ console.log(college);
 console.log(myName);
 
 const favoriteSubject = 'Math';
-//Console.log the text "My name is: " follows by myName variable.
+//Console.log the text "My name is: " follows by myName variab
+e.
 console.log("My name is:", myName, ", I go to ", college);
 console.log("My name is:" + myName);
 //Console.log the text "My college is: " follows by college variable.
