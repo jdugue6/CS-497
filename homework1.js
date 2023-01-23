@@ -17,4 +17,13 @@ const handleClick=(event)=>{
   }
 }
     
-  
+     //Product Data
+let requestURL = 'https://fakestoreapi.com/products?limit=10'
+
+fetch(requestURL)
+    .then((res) => { return res.json()})
+    .then((data) => {
+        //console.log(data);
+        populateList(data);
+    });
+    
